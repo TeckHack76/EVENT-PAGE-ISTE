@@ -19,7 +19,7 @@ html{
 
 body{
    background: #6d1f1c;
-   background-image: url("/images/11852562_4851275.jpg");
+   background-image: url("/images/popart.jpg");
    background-size:cover;
 }
 
@@ -40,7 +40,7 @@ body{
    margin-bottom: 3rem;
    text-transform: uppercase;
    text-align: center;
-   -webkit-text-stroke-color: #012345fc;
+   -webkit-text-stroke-color:#002b5894;
    -webkit-text-stroke-width: 2px;
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    animation: text 4s 1;
@@ -101,16 +101,17 @@ body{
 .container .products-container .product h3{
    padding:.5rem 0;
    font-size: 2rem;
-   color: rgb(151 173 191)
+   color: white;
 }
 
 .container .products-container .product:hover h3{
-   color:#27ae60;
+   color: white;
+   font-size: 3rem;
 }
 
 .container .products-container .product .price{
    font-size: 2rem;
-   color:#687a8a;
+   color:white;
 }
 
 .products-preview{
